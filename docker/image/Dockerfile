@@ -41,7 +41,7 @@ RUN apt-get update && \
 
 RUN gem install bundle
 RUN pip3 install --upgrade setuptools pip
-RUN pip3 install sphinx sphinx-reredirects gitpython
+RUN pip3 install gitpython
 
 RUN ln -s `which nodejs` /usr/local/bin/node
 
